@@ -1,0 +1,99 @@
+body{
+  background: #304352;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #d7d2cc, #738290);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #d7d2cc, #738290); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #738290;
+  font-weight: 300;
+  line-height: 1.6em;
+}
+
+.img-rounded{
+  height: 500;
+  width: 820;
+  border-radius: 50px;
+  opacity: 0.8;
+}
+
+.img-rounded:hover{
+  box-shadow: 2px 2px 2px #C7DBE6;
+  opacity: 1;
+}
+
+#myphoto{
+  height: 200;
+  width: 200;
+  border-radius: 50%;
+  box-shadow: 2px 2px 2px #738290;
+  opacity: 0.8;
+}
+
+div{
+  font-family: 'Open Sans', sans-serif;
+  background: #FFFCF7;
+  box-shadow: 2px 2px 2px grey;
+  border-radius: 30px;
+  text-align: center;
+  padding: 30px;
+  margin: 25px 50px;
+}
+
+#MyName{
+  color: #364652;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#Subtitle-singer{
+  font-family: 'Montserrat', sans-serif;
+  background: #304352;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 2px 2px 2px white;
+  margin: 40px 70px 40px 70px;
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 30px;
+}
+
+.center{
+  display: block;
+  margin: auto;
+}
+
+.separation{
+  padding: 20px;
+}
+
+.singer-table{
+  text-align: center;
+  margin:50px 90px;
+}
+
+a{
+  color:#738290;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+a:hover{
+  color:#364652;
+}
+
+ul, li{
+  display: inline-block;
+  word-spacing: 180px;
+  padding: 0;
+}
+
+i{
+  width: 50px;
+  height: 50px;
+  font-size: 40px;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color:#C7DBE6;
+  text-align: center;
+  font-size: 37px;
+}
+
